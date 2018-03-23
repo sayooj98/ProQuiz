@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProQuiz</string>
+    <string name="s3_games">
+        <![CDATA[
+        <b><font color="#FF0000">S3 </font>Games</b>
+        ]]>
+    </string>
+    <string name="title_activity_main_menu">MainMenu</string>
+</resources>

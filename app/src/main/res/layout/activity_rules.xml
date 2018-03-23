@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/yellow"
+    tools:context="com.example.sayooj.proquiz.Rules">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="380dp"
+        android:layout_height="157dp"
+        android:layout_marginBottom="8dp"
+        app:srcCompat="@drawable/rule"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="360dp"
+        android:layout_height="273dp"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:text=" 1)ProQuiz has questions from every\n field.\n 2)There are 7 levels.\n 3)The score weightage increases by 5\n with each level.\n 4)You have fixed time to answer each\n question.\n 5)If you answer a queston wrong, you\n are eliminated.\n "
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="157dp" />/>
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="150dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#66071a"
+        android:textColor="#fff"
+        android:text="Main Menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image" />
+
+
+</RelativeLayout>
